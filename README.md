@@ -28,8 +28,8 @@ Database configuration is intentionally split:
 Example:
 
 ```env
-DATABASE_URL=postgres://postgres:1475@localhost:5432/sqlanalytics
-ANALYTICS_DATABASE_URL=postgres://postgres:1475@localhost:5432/travel_erp_uat_qc
+DATABASE_URL=postgres://postgres:postgres@localhost:5432/sqlanalytics
+ANALYTICS_DATABASE_URL=postgres://postgres:postgres@localhost:5432/travel_erp_uat_qc
 ANALYTICS_DATABASE_DIALECT=postgres
 ```
 
